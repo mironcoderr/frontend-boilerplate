@@ -1,0 +1,17 @@
+.mc-breadcrumb {
+    margin: 0px;
+    
+    .breadcrumb-item {
+        padding: 0px;
+
+        &::before {
+            content: '~';
+            font-weight: 500;
+            padding: 0px 8px;
+        }
+
+        &:first-child {
+            &::before { display: none; }
+        }
+    }
+}

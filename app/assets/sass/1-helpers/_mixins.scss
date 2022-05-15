@@ -1,6 +1,10 @@
 // TRANSITION LINEAR PROPERTY
 @mixin transition-linear {
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 // BACKGROUND IMAGE PROPERTY
